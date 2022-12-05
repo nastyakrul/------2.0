@@ -1,0 +1,10 @@
+.e4po4mack{
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif ; /* шрифт */
+    font-size: 50px;
+    font-weight: 800;
+    width: 500px;
+    height: 100px;
+    border: 10px solid black;
+    
+}
