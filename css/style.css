@@ -1,10 +1,217 @@
-.e4po4mack{
-    background-color: red;
-    font-family: 'Times New Roman', Times, serif ; /* шрифт */
-    font-size: 50px;
-    font-weight: 800;
-    width: 500px;
-    height: 100px;
-    border: 10px solid black;
+.wrapper {
+    background-color: #FFDDB6;
+    width: 100%;
+    align-items: center;
+    font-family: Georgia;
+}
+
+.wrapper_header {
+    width: 1440px;
+    display:flex;
+    padding-left: 140px;
+    padding-top: 11px;
+    align-items: center;
+}
+
+.header_fr {
+    font-family: Georgia;
+    margin-right: 145px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.18px;
+}
+.header_ov {
+    font-family: Georgia;
+    margin-right: 145px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.18px;
+}
+.header_nb {
+    font-family: Georgia;
+    margin-right: 90px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.18px;
+}
+.header_menu {
+    margin-right: 90px;
+}
+.header_do {
+    font-family: Georgia;
+    margin-right: 108px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.18px;
+}
+.header_ak {
+    font-family: Georgia;
+    margin-right: 108px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.18px;
+}
+.header_lk {
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.18px;
+}
+
+.wrapper_body {
+    position: relative;
+    height: 780px;
+    width: 1440px;
+}
+
+.body_info {
+    font-family: Georgia;
+    width: 200px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.18px;
+    position:absolute;
+    top: 70px;
+    left: 400px;
+}
+
+.body_title {
+    font-family: Appetite;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+    color: #844E0E;
+}
+
+.first {
+    position:absolute;
+    top: 165px;
+    left: 240px;
+}
+
+.second {
+    position:absolute;
+    top: 279px;
+    left: 440px;
+}
+
+.choise{
+    font-family: Georgia;
+    position: absolute;
+    top: 62px;
+    left: 1028px;
+    width: 185px;
+    height: 185px;
+    border: 3px solid #844E0E;
+    background: #FFB23E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27.27px;
+    text-align: center;
+    color: #453C0F;
+    border-radius: 50%;
+    rotate: -16.72deg;
+    cursor: pointer;
+}
+
+.passion{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.papa{
+    position: absolute;
+    top: 255px;
+    left: 512px;
+}
+
+.papa_info {
+    font-family: Georgia;
+    width: 200px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.18px;
+    position:absolute;
+    top: 679px;
+    left: 400px;
+}
+
+.wrapper_sale {
+    width: 1440px;
+    height: 315px;
+    background-color: #FFB23E;
+}
+
+.sale_title {
+    font-family: Georgia;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40.9px;
+    padding-top: 32px;
+    padding-left: 140px;
+}
+
+.sale_body{
+    display: flex;
     
+}
+
+.sale_body img{
+    width: 51px;
+    height: 183px;
+    margin-top: 14px;
+}
+
+.sale_item{
+    margin-top: 50px;
+    margin-right: 74px;
+    font-family: Georgia;
+}
+
+.sale1{
+    margin-left: 149px;
+}
+
+.item_title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27.27px;
+    color: #453C0F;
+    margin-bottom: 20px;
+}
+
+.item_body{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #453C0F;
+}
+
+.bonus{
+    margin-left: 40px;
+    width: 200px;
+    height: 136px;
+}
+
+.birthday{
+    width: 210px;
+    height: 125px;
+}
+
+.student{
+    width: 199px;
+    height: 137px;
+}
+
+.feedback{
+    width: 173px;
+    height: 119px;
+    margin-right: 40px;
 }
